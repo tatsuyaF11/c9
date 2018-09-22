@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+}
+
+header {
+        height: 25px;
+        width: 1000px;
+        background-color: #ffcccc;}
+        
+#main {
+    float: left;
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    float: right;
+    width: 300px;
+    background-color: #ccccff;
+}
+            
+footer {
+    clear: both;
+    height: 25px;
+    width: 1000px;
+    background-color: #ffccff;
+}
