@@ -58,7 +58,14 @@
             <li>
 <%= link_to 'ログアウト', logout_path, method: :delete %>
 </li>
-          
+
+            <li>
+<%= link_to new_item_path do %>
+
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                アイテムを追加
+</li>             
+      
 <% end %>
 
         </ul>
